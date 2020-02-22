@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: idevqa/interval@master
+    - name: Ready for Repo
+      run: | 
+        echo 'Ready for Hugo env'
+        pwd 
+        rake ready sys='ubuntu'
+    - name: Publish page
+      run: |
+        rake 
