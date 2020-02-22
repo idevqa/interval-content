@@ -11,5 +11,7 @@ type: docs
 
 可以直接向内容仓库 [interval-content](https://github.com/idevqa/interval-content) 提 Pull Request 进行修改编辑申请。
 
+## 适用人群
+
 ## 贡献者
 
