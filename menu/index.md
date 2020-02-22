@@ -12,37 +12,37 @@ category: menu
     - 什么是事件响应链
     - 什么是离屏渲染
     - UI 的刷新原理
-    - `UIView`, `CALayer`
-    - `drawrect` , `layoutsubviews` 调用时机
+    - `UIView` 和 `CALayer`
+    - `layoutsubviews` 
   - 4.2 布局方式
     - AutoLayout 原理与性能
   - 4.3 图片
     - 图片解码时机与优化
     - 图片渲染优化
     - 多个相同图片重复加载
-    - imageName 和 imageWithContent
+    - imageName
 - 第五章 多线程
 - 第六章 Runtime 
   - 6.1 结构模型
     - [Runtime 的内存模型]({{< relref "/docs/ch06/tc01/6-1-1" >}})
     - [`metaclass`]({{< relref "/docs/ch06/tc01/6-1-2" >}})
-    - [`class_copyIvarList`, `class_copyPropertyList` 区别]({{< relref "/docs/ch06/tc01/6-1-3" >}})
-    - [`class_rw_t`, `class_ro_t` 区别]({{< relref "/docs/ch06/tc01/6-1-4" >}})
+    - [`class_copyIvarList`]({{< relref "/docs/ch06/tc01/6-1-3" >}})
+    - [`class_rw_t`]({{< relref "/docs/ch06/tc01/6-1-4" >}})
     - [Category]({{< relref "/docs/ch06/tc01/6-1-5" >}})
     - [消息转发]({{< relref "/docs/ch06/tc01/6-1-6" >}})
     - [方法调用]({{< relref "/docs/ch06/tc01/6-1-7" >}})
-    - [`IMP`, `SEL`, `Method`]({{< relref "/docs/ch06/tc01/6-1-8" >}})
+    - [`IMP`, `SEL` 和 `Method`]({{< relref "/docs/ch06/tc01/6-1-8" >}})
     - [`load`, `initialize`]({{< relref "/docs/ch06/tc01/6-1-9" >}})
   - 6.2 内存管理
-    - [`weak`]({{< relref "/docs/ch06/tc02/6-2-1" >}})
+    - [`weak` 弱引用]({{< relref "/docs/ch06/tc02/6-2-1" >}})
     - [关联对象]({{< relref "/docs/ch06/tc02/6-2-2" >}})
     - [Autoreleasepool]({{< relref "/docs/ch06/tc02/6-2-3" >}})
-    - [ARC]({{< relref "/docs/ch06/tc02/6-2-4" >}})
+    - [ARC 自动引用计数]({{< relref "/docs/ch06/tc02/6-2-4" >}})
   - 6.3
     - [Method Swizzle]({{< relref "/docs/ch06/tc03/6-3-1" >}})
     - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
     - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
-    - [`class`, `objc_getClass`, `object_getclass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
+    - [`objc_getClass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
 - 第七章 RunLoop
 - 第八章 Block
 - 第九章 工程架构
