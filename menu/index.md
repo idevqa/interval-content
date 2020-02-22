@@ -1,6 +1,5 @@
 ---
 headless: true
-category: menu
 ---
 
 - [序章]({{< relref "/" >}})
