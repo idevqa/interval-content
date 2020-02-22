@@ -8,6 +8,19 @@ category: menu
 - 第二章 数据结构与算法
 - 第三章 语法特性
 - 第四章 UIKit
+  - 4.1 基础
+    - 什么是事件响应链
+    - 什么是离屏渲染
+    - UI 的刷新原理
+    - `UIView`, `CALayer`
+    - `drawrect` , `layoutsubviews` 调用时机
+  - 4.2 布局方式
+    - AutoLayout 原理与性能
+  - 4.3 图片
+    - 图片解码时机与优化
+    - 图片渲染优化
+    - 多个相同图片重复加载
+    - imageName 和 imageWithContent
 - 第五章 多线程
 - 第六章 Runtime 
   - 6.1 结构模型
