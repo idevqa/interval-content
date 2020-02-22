@@ -33,6 +33,16 @@ category: menu
     - [方法调用]({{< relref "/docs/ch06/tc01/6-1-7" >}})
     - [`IMP`, `SEL`, `Method`]({{< relref "/docs/ch06/tc01/6-1-8" >}})
     - [`load`, `initialize`]({{< relref "/docs/ch06/tc01/6-1-9" >}})
+  - 6.2 内存管理
+    - [`weak`]({{< relref "/docs/ch06/tc02/6-2-1" >}})
+    - [关联对象]({{< relref "/docs/ch06/tc02/6-2-2" >}})
+    - [Autoreleasepool]({{< relref "/docs/ch06/tc02/6-2-3" >}})
+    - [ARC]({{< relref "/docs/ch06/tc02/6-2-4" >}})
+  - 6.3
+    - [Method Swizzle]({{< relref "/docs/ch06/tc03/6-3-1" >}})
+    - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
+    - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
+    - [`class`, `objc_getClass`, `object_getclass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
 - 第七章 RunLoop
 - 第八章 Block
 - 第九章 工程架构
