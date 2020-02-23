@@ -5,7 +5,10 @@ category: menu
 
 - [序章]({{< relref "/" >}})
 - 第一章 基础知识
-  - [基础知识]({{< relref "/docs/ch01/01" >}})
+  - [1.1 计算机网络]({{< relref "/docs/ch01/tc01/01" >}})
+  - [1.2 操作系统]({{< relref "/docs/ch01/tc02/02" >}})
+  - [1.3 数据安全]({{< relref "/docs/ch01/tc03/03" >}})
+  - [1.4 苹果证书]({{< relref "/docs/ch01/tc04/04" >}})
 - 第二章 数据结构与算法
 - 第三章 语法特性
 - 第四章 UIKit
