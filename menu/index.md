@@ -9,18 +9,18 @@ category: menu
 - 第三章 语法特性
 - 第四章 UIKit
   - 4.1 基础
-    - 什么是事件响应链
-    - 什么是离屏渲染
-    - UI 的刷新原理
-    - `UIView` 和 `CALayer`
-    - `layoutsubviews` 
+    - [什么是事件响应链]({{< relref "/docs/ch04/tc01/4-1-1" >}})
+    - [什么是离屏渲染]({{< relref "/docs/ch04/tc01/4-1-2" >}})
+    - [UI 的刷新原理]({{< relref "/docs/ch04/tc01/4-1-3" >}})
+    - [`UIView` 和 `CALayer`]({{< relref "/docs/ch04/tc01/4-1-4" >}})
+    - [`layoutsubviews`]({{< relref "/docs/ch04/tc01/4-1-5" >}})
   - 4.2 布局方式
-    - AutoLayout 原理与性能
+    - [AutoLayout 原理与性能]({{< relref "/docs/ch04/tc01/4-2-1" >}})
   - 4.3 图片
-    - 图片解码时机与优化
-    - 图片渲染优化
-    - 多个相同图片重复加载
-    - imageName
+    - [图片解码时机与优化]({{< relref "/docs/ch04/tc01/4-3-1" >}})
+    - [图片渲染优化]({{< relref "/docs/ch04/tc01/4-1-1" >}})
+    - [多个相同图片重复加载]({{< relref "/docs/ch04/tc01/4-3-2" >}})
+    - [imageName]({{< relref "/docs/ch04/tc01/4-3-3" >}})
 - 第五章 多线程
 - 第六章 Runtime 
   - 6.1 结构模型
