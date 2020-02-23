@@ -60,4 +60,9 @@ category: menu
 - 第八章 Block
 - 第九章 工程架构
 - 第十章 性能优化
+  - 10.1
+    - [启动]({{< relref "/docs/ch10/tc01/10-1-1" >}})
+    - [卡顿]({{< relref "/docs/ch10/tc01/10-1-2" >}})
+    - [耗电]({{< relref "/docs/ch10/tc01/10-1-3" >}})
+    - [网络]({{< relref "/docs/ch10/tc01/10-1-4" >}})
 
