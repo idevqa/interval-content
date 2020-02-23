@@ -5,7 +5,10 @@ category: menu
 
 - [序章]({{< relref "/" >}})
 - 第一章 基础知识
-  - [基础知识]({{< relref "/docs/ch01/01" >}})
+  - [1.1 计算机网络]({{< relref "/docs/ch01/tc01/01" >}})
+  - [1.2 操作系统]({{< relref "/docs/ch01/tc02/02" >}})
+  - [1.3 数据安全]({{< relref "/docs/ch01/tc03/03" >}})
+  - [1.4 苹果证书]({{< relref "/docs/ch01/tc04/04" >}})
 - 第二章 数据结构与算法
 - 第三章 语法特性
 - 第四章 UIKit
@@ -57,7 +60,19 @@ category: menu
     - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
     - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
     - [`objc_getClass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
-- 第七章 RunLoop
+- 第七章 RunLoop和KVO
+  - 7.1 RunLoop
+    - [app如何接收到触摸事件的]({{< relref "/docs/ch07/tc01/7-1-1" >}})
+    - [为什么只有主线程的runloop是开启的]({{< relref "/docs/ch07/tc02/7-1-2" >}})
+    - [为什么只在主线程刷新UI]({{< relref "/docs/ch07/tc03/7-1-3" >}})
+    - [PerformSelector和runloop的关系]({{< relref "/docs/ch07/tc04/7-1-4" >}})
+    - [如何使线程保活]({{< relref "/docs/ch07/tc05/7-1-5" >}})
+  - 7.2 KVO
+    - [实现原理]({{< relref "/docs/ch07/tc06/7-2-1" >}})
+    - [如何手动关闭kvo]({{< relref "/docs/ch07/tc07/7-2-2" >}})
+    - [通过KVC修改属性会触发KVO么]({{< relref "/docs/ch07/tc08/7-2-3" >}})
+    - [哪些情况下使用kvo会崩溃，怎么防护崩溃]({{< relref "/docs/ch07/tc09/7-2-4" >}})
+    - [kvo的优缺点]({{< relref "/docs/ch07/tc10/7-2-5" >}})
 - 第八章 Block
 - 第九章 工程架构
   - 9.1 架构设计
