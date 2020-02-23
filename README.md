@@ -27,3 +27,7 @@ iOS 方向求职应届生以及考虑机会的 iOS 工程师。
 
 ## 贡献者
 
+## License
+
+<p>本作品采用 <strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans">知识署名-非商业性使用-禁止演绎 （BY-NC-ND） 4.0 国际许可协议</a></strong> 进行许可。</p>
+
