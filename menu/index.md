@@ -60,7 +60,19 @@ category: menu
     - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
     - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
     - [`objc_getClass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
-- 第七章 RunLoop
+- 第七章 RunLoop和KVO
+  - 7.1 RunLoop
+    - [app如何接收到触摸事件的]({{< relref "/docs/ch07/tc01/7-1-1" >}})
+    - [为什么只有主线程的runloop是开启的]({{< relref "/docs/ch07/tc01/7-1-2" >}})
+    - [为什么只在主线程刷新UI]({{< relref "/docs/ch07/tc01/7-1-3" >}})
+    - [PerformSelector和runloop的关系]({{< relref "/docs/ch07/tc01/7-1-4" >}})
+    - [如何使线程保活]({{< relref "/docs/ch07/tc01/7-1-5" >}})
+  - 7.2 KVO
+    - [实现原理]({{< relref "/docs/ch07/tc01/7-2-1" >}})
+    - [如何手动关闭kvo]({{< relref "/docs/ch07/tc01/7-2-2" >}})
+    - [通过KVC修改属性会触发KVO么]({{< relref "/docs/ch07/tc01/7-2-3" >}})
+    - [哪些情况下使用kvo会崩溃，怎么防护崩溃]({{< relref "/docs/ch07/tc01/7-2-4" >}})
+    - [kvo的优缺点]({{< relref "/docs/ch07/tc01/7-2-5" >}})
 - 第八章 Block
 - 第九章 工程架构
   - 9.1 架构设计
