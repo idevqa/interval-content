@@ -59,6 +59,17 @@ category: menu
 - 第七章 RunLoop
 - 第八章 Block
 - 第九章 工程架构
+  - 9.1 架构设计
+    - [埋点]({{< relref "/docs/ch09/tc01/9-1-1" >}})
+    - [`MVC`, `MVP`, `MVVM`]({{< relref "/docs/ch09/tc01/9-1-2" >}})
+    - [设计模式]({{< relref "/docs/ch09/tc01/9-1-3" >}})
+    - [单例]({{< relref "/docs/ch09/tc01/9-1-4" >}})
+    - [路由]({{< relref "/docs/ch09/tc01/9-1-5" >}})
+    - [稳定性]({{< relref "/docs/ch09/tc01/9-1-6" >}})
+    - [缓存]({{< relref "/docs/ch09/tc01/9-1-7" >}})
+    - [`git diff`]({{< relref "/docs/ch09/tc01/9-1-8" >}})
+    - [线程池]({{< relref "/docs/ch09/tc01/9-1-9" >}})
+    - [APP 架构]({{< relref "/docs/ch09/tc01/9-1-10" >}})
 - 第十章 性能优化
   - 10.1
     - [启动]({{< relref "/docs/ch10/tc01/10-1-1" >}})
