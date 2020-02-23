@@ -22,6 +22,19 @@ category: menu
     - [多个相同图片重复加载]({{< relref "/docs/ch04/tc03/4-3-2" >}})
     - [imageName]({{< relref "/docs/ch04/tc03/4-3-3" >}})
 - 第五章 多线程
+  - 5.1 基础
+    - [线程]({{< relref "/docs/ch05/tc01/5-1-1" >}})
+    - [同步]({{< relref "/docs/ch05/tc01/5-1-2" >}})
+    - [锁]({{< relref "/docs/ch05/tc01/5-1-3" >}})
+    - [死锁]({{< relref "/docs/ch05/tc01/5-1-4" >}})
+  - 5.2 GCD
+    - [GCD 队列]({{< relref "/docs/ch05/tc02/5-2-1" >}})
+    - [GCD 线程与队列关系]({{< relref "/docs/ch05/tc02/5-2-2" >}})
+    - [GCD API]({{< relref "/docs/ch05/tc02/5-2-3" >}})
+    - [`dispatch_once` 实现原理]({{< relref "/docs/ch05/tc02/5-2-4" >}})
+  - 5.3 其他
+    - [`NSOperationQueue`]({{< relref "/docs/ch05/tc03/5-3-1" >}})
+    - [`NSTimer`, `CADisplayLink`, `dispatch_source_t`]({{< relref "/docs/ch05/tc03/5-3-2" >}})
 - 第六章 Runtime 
   - 6.1 结构模型
     - [Runtime 的内存模型]({{< relref "/docs/ch06/tc01/6-1-1" >}})
