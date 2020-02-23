@@ -1,61 +1,19 @@
 ---
 headless: true
-category: menu
 ---
 
 - [序章]({{< relref "/" >}})
 - 第一章 基础知识
+  - [基础知识]({{< relref "/docs/ch01/01.md" >}})
 - 第二章 数据结构与算法
 - 第三章 语法特性
 - 第四章 UIKit
-  - 4.1 基础
-    - [什么是事件响应链]({{< relref "/docs/ch04/tc01/4-1-1" >}})
-    - [什么是离屏渲染]({{< relref "/docs/ch04/tc01/4-1-2" >}})
-    - [UI 的刷新原理]({{< relref "/docs/ch04/tc01/4-1-3" >}})
-    - [`UIView` 和 `CALayer`]({{< relref "/docs/ch04/tc01/4-1-4" >}})
-    - [`layoutsubviews`]({{< relref "/docs/ch04/tc01/4-1-5" >}})
-  - 4.2 布局方式
-    - [AutoLayout 原理与性能]({{< relref "/docs/ch04/tc02/4-2-1" >}})
-  - 4.3 图片
-    - [图片解码时机与优化]({{< relref "/docs/ch04/tc03/4-3-1" >}})
-    - [图片渲染优化]({{< relref "/docs/ch04/tc03/4-3-1" >}})
-    - [多个相同图片重复加载]({{< relref "/docs/ch04/tc03/4-3-2" >}})
-    - [imageName]({{< relref "/docs/ch04/tc03/4-3-3" >}})
 - 第五章 多线程
-  - 5.1 基础
-    - [线程]({{< relref "/docs/ch05/tc01/5-1-1" >}})
-    - [同步]({{< relref "/docs/ch05/tc01/5-1-2" >}})
-    - [锁]({{< relref "/docs/ch05/tc01/5-1-3" >}})
-    - [死锁]({{< relref "/docs/ch05/tc01/5-1-4" >}})
-  - 5.2 GCD
-    - [GCD 队列]({{< relref "/docs/ch05/tc02/5-2-1" >}})
-    - [GCD 线程与队列关系]({{< relref "/docs/ch05/tc02/5-2-2" >}})
-    - [GCD API]({{< relref "/docs/ch05/tc02/5-2-3" >}})
-    - [`dispatch_once` 实现原理]({{< relref "/docs/ch05/tc02/5-2-4" >}})
-  - 5.3 其他
-    - [`NSOperationQueue`]({{< relref "/docs/ch05/tc03/5-3-1" >}})
-    - [`NSTimer`, `CADisplayLink`, `dispatch_source_t`]({{< relref "/docs/ch05/tc03/5-3-2" >}})
 - 第六章 Runtime 
   - 6.1 结构模型
-    - [Runtime 的内存模型]({{< relref "/docs/ch06/tc01/6-1-1" >}})
-    - [`metaclass`]({{< relref "/docs/ch06/tc01/6-1-2" >}})
-    - [`class_copyIvarList`]({{< relref "/docs/ch06/tc01/6-1-3" >}})
-    - [`class_rw_t`]({{< relref "/docs/ch06/tc01/6-1-4" >}})
-    - [Category]({{< relref "/docs/ch06/tc01/6-1-5" >}})
-    - [消息转发]({{< relref "/docs/ch06/tc01/6-1-6" >}})
-    - [方法调用]({{< relref "/docs/ch06/tc01/6-1-7" >}})
-    - [`IMP`, `SEL` 和 `Method`]({{< relref "/docs/ch06/tc01/6-1-8" >}})
-    - [`load`, `initialize`]({{< relref "/docs/ch06/tc01/6-1-9" >}})
-  - 6.2 内存管理
-    - [`weak` 弱引用]({{< relref "/docs/ch06/tc02/6-2-1" >}})
-    - [关联对象]({{< relref "/docs/ch06/tc02/6-2-2" >}})
-    - [Autoreleasepool]({{< relref "/docs/ch06/tc02/6-2-3" >}})
-    - [ARC 自动引用计数]({{< relref "/docs/ch06/tc02/6-2-4" >}})
-  - 6.3
-    - [Method Swizzle]({{< relref "/docs/ch06/tc03/6-3-1" >}})
-    - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
-    - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
-    - [`objc_getClass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
+    - [6.1.1 Runtime 的内存模型]({{< relref "/docs/ch06/tc01/6-1-1" >}})
+    - 6.1.2 `metaclass` 是什么
+    - 6.1.3 `class_copyIvarList` 和 `class_copyPropertyList` 的区别
 - 第七章 RunLoop
 - 第八章 Block
 - 第九章 工程架构
