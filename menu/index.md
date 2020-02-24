@@ -74,6 +74,15 @@ category: menu
     - [哪些情况下使用kvo会崩溃，怎么防护崩溃]({{< relref "/docs/ch07/tc09/7-2-4" >}})
     - [kvo的优缺点]({{< relref "/docs/ch07/tc10/7-2-5" >}})
 - 第八章 Block
+    - [block的内部实现，结构体是什么样的]({{< relref "/docs/ch08-Block/tc01/8-1-1" >}})
+    - [block是类吗，有哪些类型]({{< relref "/docs/ch08-Block/tc01/8-1-2" >}})
+    - [一个int变量被 __block 修饰与否的区别？block的变量截获]({{< relref "/docs/ch08-Block/tc01/8-1-3" >}})
+    - [block在修改NSMutableArray，需不需要添加__block]({{< relref "/docs/ch08-Block/tc01/8-1-4" >}})
+    - [block怎么进行内存管理的]({{< relref "/docs/ch08-Block/tc01/8-1-5" >}})
+    - [block可以用strong修饰吗]({{< relref "/docs/ch08-Block/tc01/8-1-6" >}})
+    - [解决循环引用时为什么要用__strong、__weak修饰]({{< relref "/docs/ch08-Block/tc01/8-1-7" >}})
+    - [block发生copy时机]({{< relref "/docs/ch08-Block/tc01/8-1-8" >}})
+    - [Block访问对象类型的auto变量时，在ARC和MRC下有什么区别]({{< relref "/docs/ch08-Block/tc01/8-1-9" >}})
 - 第九章 工程架构
   - 9.1 架构设计
     - [埋点]({{< relref "/docs/ch09/tc01/9-1-1" >}})
