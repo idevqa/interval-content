@@ -37,7 +37,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "0x1306a94",
+      "name": "0x1306a94",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14822396?v=4",
+      "profile": "https://blog.0x1306a94.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
