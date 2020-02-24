@@ -9,6 +9,16 @@
   "imageSize": 60,
   "commit": true,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "Desgard",
+      "name": "Gua",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7804535?v=4",
+      "profile": "https://www.desgard.com/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
