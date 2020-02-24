@@ -35,6 +35,7 @@ iOS 方向求职应届生以及考虑机会的 iOS 工程师。
     <td align="center"><a href="https://www.desgard.com/"><img src="https://avatars3.githubusercontent.com/u/7804535?v=4" width="60px;" alt=""/><br /><sub><b>Gua</b></sub></a><br /><a href="#content-Desgard" title="Content">🖋</a></td>
     <td align="center"><a href="https://juejin.im/user/590062eeda2f60005ddf10bd"><img src="https://avatars1.githubusercontent.com/u/13744851?v=4" width="60px;" alt=""/><br /><sub><b>邓超界_dengChaoJie</b></sub></a><br /><a href="#content-dengchaojie" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/xilin"><img src="https://avatars1.githubusercontent.com/u/543395?v=4" width="60px;" alt=""/><br /><sub><b>Xi Lin</b></sub></a><br /><a href="#content-xilin" title="Content">🖋</a></td>
+    <td align="center"><a href="https://blog.0x1306a94.com"><img src="https://avatars3.githubusercontent.com/u/14822396?v=4" width="60px;" alt=""/><br /><sub><b>0x1306a94</b></sub></a><br /><a href="#content-0x1306a94" title="Content">🖋</a></td>
   </tr>
 </table>
 
