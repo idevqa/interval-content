@@ -1,0 +1,43 @@
+{
+  "projectName": "interval-content",
+  "projectOwner": "idevqa",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md",
+    "_index.md"
+  ],
+  "imageSize": 60,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Desgard",
+      "name": "Gua",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7804535?v=4",
+      "profile": "https://www.desgard.com/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "dengchaojie",
+      "name": "邓超界_dengChaoJie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13744851?v=4",
+      "profile": "https://juejin.im/user/590062eeda2f60005ddf10bd",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "xilin",
+      "name": "Xi Lin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/543395?v=4",
+      "profile": "https://github.com/xilin",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

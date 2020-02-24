@@ -5,23 +5,40 @@ category: menu
 
 - [序章]({{< relref "/" >}})
 - 第一章 基础知识
+  - [1.1 计算机网络]({{< relref "/docs/ch01/tc01/01" >}})
+  - [1.2 操作系统]({{< relref "/docs/ch01/tc02/02" >}})
+  - [1.3 数据安全]({{< relref "/docs/ch01/tc03/03" >}})
+  - [1.4 苹果证书]({{< relref "/docs/ch01/tc04/04" >}})
 - 第二章 数据结构与算法
 - 第三章 语法特性
 - 第四章 UIKit
   - 4.1 基础
-    - 什么是事件响应链
-    - 什么是离屏渲染
-    - UI 的刷新原理
-    - `UIView` 和 `CALayer`
-    - `layoutsubviews` 
+    - [什么是事件响应链]({{< relref "/docs/ch04/tc01/4-1-1" >}})
+    - [什么是离屏渲染]({{< relref "/docs/ch04/tc01/4-1-2" >}})
+    - [UI 的刷新原理]({{< relref "/docs/ch04/tc01/4-1-3" >}})
+    - [`UIView` 和 `CALayer`]({{< relref "/docs/ch04/tc01/4-1-4" >}})
+    - [`layoutsubviews`]({{< relref "/docs/ch04/tc01/4-1-5" >}})
   - 4.2 布局方式
-    - AutoLayout 原理与性能
+    - [AutoLayout 原理与性能]({{< relref "/docs/ch04/tc02/4-2-1" >}})
   - 4.3 图片
-    - 图片解码时机与优化
-    - 图片渲染优化
-    - 多个相同图片重复加载
-    - imageName
+    - [图片解码时机与优化]({{< relref "/docs/ch04/tc03/4-3-1" >}})
+    - [图片渲染优化]({{< relref "/docs/ch04/tc03/4-3-1" >}})
+    - [多个相同图片重复加载]({{< relref "/docs/ch04/tc03/4-3-2" >}})
+    - [imageName]({{< relref "/docs/ch04/tc03/4-3-3" >}})
 - 第五章 多线程
+  - 5.1 基础
+    - [线程]({{< relref "/docs/ch05/tc01/5-1-1" >}})
+    - [同步]({{< relref "/docs/ch05/tc01/5-1-2" >}})
+    - [锁]({{< relref "/docs/ch05/tc01/5-1-3" >}})
+    - [死锁]({{< relref "/docs/ch05/tc01/5-1-4" >}})
+  - 5.2 GCD
+    - [GCD 队列]({{< relref "/docs/ch05/tc02/5-2-1" >}})
+    - [GCD 线程与队列关系]({{< relref "/docs/ch05/tc02/5-2-2" >}})
+    - [GCD API]({{< relref "/docs/ch05/tc02/5-2-3" >}})
+    - [`dispatch_once` 实现原理]({{< relref "/docs/ch05/tc02/5-2-4" >}})
+  - 5.3 其他
+    - [`NSOperationQueue`]({{< relref "/docs/ch05/tc03/5-3-1" >}})
+    - [`NSTimer`, `CADisplayLink`, `dispatch_source_t`]({{< relref "/docs/ch05/tc03/5-3-2" >}})
 - 第六章 Runtime 
   - 6.1 结构模型
     - [Runtime 的内存模型]({{< relref "/docs/ch06/tc01/6-1-1" >}})
@@ -43,8 +60,36 @@ category: menu
     - [属性修饰符 `atomic`]({{< relref "/docs/ch06/tc03/6-3-2" >}})
     - [iOS 的内省方法]({{< relref "/docs/ch06/tc03/6-3-3" >}})
     - [`objc_getClass`]({{< relref "/docs/ch06/tc03/6-3-4" >}})
-- 第七章 RunLoop
+- 第七章 RunLoop和KVO
+  - 7.1 RunLoop
+    - [app如何接收到触摸事件的]({{< relref "/docs/ch07/tc01/7-1-1" >}})
+    - [为什么只有主线程的runloop是开启的]({{< relref "/docs/ch07/tc02/7-1-2" >}})
+    - [为什么只在主线程刷新UI]({{< relref "/docs/ch07/tc03/7-1-3" >}})
+    - [PerformSelector和runloop的关系]({{< relref "/docs/ch07/tc04/7-1-4" >}})
+    - [如何使线程保活]({{< relref "/docs/ch07/tc05/7-1-5" >}})
+  - 7.2 KVO
+    - [实现原理]({{< relref "/docs/ch07/tc06/7-2-1" >}})
+    - [如何手动关闭kvo]({{< relref "/docs/ch07/tc07/7-2-2" >}})
+    - [通过KVC修改属性会触发KVO么]({{< relref "/docs/ch07/tc08/7-2-3" >}})
+    - [哪些情况下使用kvo会崩溃，怎么防护崩溃]({{< relref "/docs/ch07/tc09/7-2-4" >}})
+    - [kvo的优缺点]({{< relref "/docs/ch07/tc10/7-2-5" >}})
 - 第八章 Block
 - 第九章 工程架构
+  - 9.1 架构设计
+    - [埋点]({{< relref "/docs/ch09/tc01/9-1-1" >}})
+    - [`MVC`, `MVP`, `MVVM`]({{< relref "/docs/ch09/tc01/9-1-2" >}})
+    - [设计模式]({{< relref "/docs/ch09/tc01/9-1-3" >}})
+    - [单例]({{< relref "/docs/ch09/tc01/9-1-4" >}})
+    - [路由]({{< relref "/docs/ch09/tc01/9-1-5" >}})
+    - [稳定性]({{< relref "/docs/ch09/tc01/9-1-6" >}})
+    - [缓存]({{< relref "/docs/ch09/tc01/9-1-7" >}})
+    - [`git diff`]({{< relref "/docs/ch09/tc01/9-1-8" >}})
+    - [线程池]({{< relref "/docs/ch09/tc01/9-1-9" >}})
+    - [APP 架构]({{< relref "/docs/ch09/tc01/9-1-10" >}})
 - 第十章 性能优化
+  - 10.1
+    - [启动]({{< relref "/docs/ch10/tc01/10-1-1" >}})
+    - [卡顿]({{< relref "/docs/ch10/tc01/10-1-2" >}})
+    - [耗电]({{< relref "/docs/ch10/tc01/10-1-3" >}})
+    - [网络]({{< relref "/docs/ch10/tc01/10-1-4" >}})
 
