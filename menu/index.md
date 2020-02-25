@@ -67,12 +67,7 @@ category: menu
     - [为什么只在主线程刷新UI]({{< relref "/docs/ch07/tc03/7-1-3" >}})
     - [PerformSelector和runloop的关系]({{< relref "/docs/ch07/tc04/7-1-4" >}})
     - [如何使线程保活]({{< relref "/docs/ch07/tc05/7-1-5" >}})
-  - 7.2 KVO
-    - [实现原理]({{< relref "/docs/ch07/tc06/7-2-1" >}})
-    - [如何手动关闭kvo]({{< relref "/docs/ch07/tc07/7-2-2" >}})
-    - [通过KVC修改属性会触发KVO么]({{< relref "/docs/ch07/tc08/7-2-3" >}})
-    - [哪些情况下使用kvo会崩溃，怎么防护崩溃]({{< relref "/docs/ch07/tc09/7-2-4" >}})
-    - [kvo的优缺点]({{< relref "/docs/ch07/tc10/7-2-5" >}})
+  - [7.2 KVO]({{< relref "/docs/ch07/tc06/7-2-1" >}})
 - 第八章 Block
     - [block的内部实现，结构体是什么样的]({{< relref "/docs/ch08/tc01/8-1-1" >}})
     - [block是类吗，有哪些类型]({{< relref "/docs/ch08/tc01/8-1-2" >}})
@@ -101,4 +96,3 @@ category: menu
     - [卡顿]({{< relref "/docs/ch10/tc01/10-1-2" >}})
     - [耗电]({{< relref "/docs/ch10/tc01/10-1-3" >}})
     - [网络]({{< relref "/docs/ch10/tc01/10-1-4" >}})
-
