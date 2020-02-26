@@ -1,7 +1,13 @@
----
-title: 序章
-type: docs
----
+
+
+# iOS 面试题词条库
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
+**链接：https://iosgua.com/interval/**
 
 ## 为什么会整理这套面试题？
 
@@ -25,7 +31,9 @@ iOS 方向求职应届生以及考虑机会的 iOS 工程师。
 
 另外，也感谢经典的[《招聘一个靠谱的 iOS》](https://github.com/ChenYilong/iOSInterviewQuestions)仓库带来的面试题整理启发。
 
-## 词条贡献者
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -43,5 +51,11 @@ iOS 方向求职应届生以及考虑机会的 iOS 工程师。
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+<p>本作品采用 <strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans">知识署名-非商业性使用-禁止演绎 （BY-NC-ND） 4.0 国际许可协议</a></strong> 进行许可。</p>
 
 
