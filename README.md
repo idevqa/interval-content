@@ -3,7 +3,7 @@
 # iOS 面试题词条库
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -45,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/xilin"><img src="https://avatars1.githubusercontent.com/u/543395?v=4" width="60px;" alt=""/><br /><sub><b>Xi Lin</b></sub></a><br /><a href="#content-xilin" title="Content">🖋</a></td>
     <td align="center"><a href="https://blog.0x1306a94.com"><img src="https://avatars3.githubusercontent.com/u/14822396?v=4" width="60px;" alt=""/><br /><sub><b>0x1306a94</b></sub></a><br /><a href="#content-0x1306a94" title="Content">🖋</a></td>
     <td align="center"><a href="http://blog.upmer.com/"><img src="https://avatars2.githubusercontent.com/u/9051625?v=4" width="60px;" alt=""/><br /><sub><b>YuriTT</b></sub></a><br /><a href="#content-TifaTsubasa" title="Content">🖋</a></td>
+    <td align="center"><a href="https://yanci.me"><img src="https://avatars1.githubusercontent.com/u/10784657?v=4" width="60px;" alt=""/><br /><sub><b>XuYanCi @许还真</b></sub></a><br /><a href="#content-XuYanci" title="Content">🖋</a></td>
   </tr>
 </table>
 
