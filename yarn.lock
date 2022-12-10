@@ -2,7 +2,14 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.5.5", "@babel/runtime@^7.7.6":
+"@babel/runtime@^7.18.9":
+  version "7.20.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
+  integrity sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
+"@babel/runtime@^7.7.6":
   version "7.8.4"
   resolved "https://bnpm.byted.org/@babel/runtime/download/@babel/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha1-159aIED3yqJNU+VjqtScvAVYEwg=
@@ -134,6 +141,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://bnpm.byted.org/chalk/download/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -399,12 +414,12 @@ jsbn@~0.1.0:
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
 json-fixer@^1.4.0:
-  version "1.3.3"
-  resolved "https://bnpm.byted.org/json-fixer/download/json-fixer-1.3.3.tgz#8a11c0536330e44f2aaba8b836d16657ad590dba"
-  integrity sha1-ihHAU2Mw5E8qq6i4NtFmV61ZDbo=
+  version "1.6.15"
+  resolved "https://registry.yarnpkg.com/json-fixer/-/json-fixer-1.6.15.tgz#f1f03b6771fcb383695d458c53e50b10999fba7f"
+  integrity sha512-TuDuZ5KrgyjoCIppdPXBMqiGfota55+odM+j2cQ5rt/XKyKmqGB3Whz1F8SN8+60yYGy/Nu5lbRZ+rx8kBIvBw==
   dependencies:
-    "@babel/runtime" "^7.5.5"
-    chalk "^2.4.2"
+    "@babel/runtime" "^7.18.9"
+    chalk "^4.1.2"
     pegjs "^0.10.0"
 
 json-schema-traverse@^0.4.1:
@@ -533,9 +548,14 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://bnpm.byted.org/qs/download/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
+
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 regenerator-runtime@^0.13.2:
   version "0.13.3"
